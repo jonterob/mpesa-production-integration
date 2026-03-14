@@ -1,0 +1,29 @@
+# Create .gitignore file with essential excludes
+echo "# Environment files
+.env
+.env.local
+.env.production
+.env.*.local
+
+# Log files
+*.log
+logs/
+mpesa_callback.json
+error_log
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+.DS_Store
+
+# Composer
+vendor/
+composer.lock
+
+# Temp files
+*.tmp
+*.cache
+temp/
+tmp/
+" > .gitignore
