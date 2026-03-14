@@ -1,2 +1,5 @@
-# mpesa-production-integration
-A production-ready M-Pesa payment integration for PHP websites. Implements STK Push (Lipa Na M-Pesa Online) with proper error handling, database transaction tracking and security best practices. Built for live environments with SSL support and comprehensive logging.
+## 📊 Integration Flow
+
+Below is a visual representation of the complete integration process from planning to going live:
+
+![M-Pesa Integration Flowchart](images/mpesa-flowchart.png)
