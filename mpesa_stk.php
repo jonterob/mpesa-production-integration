@@ -1,10 +1,8 @@
 <?php
 date_default_timezone_set('Africa/Nairobi');
 
-// ======================
 // M-PESA PRODUCTION CONFIGURATION
 // Replace these with your actual production credentials
-// ======================
 $consumerKey        = "YOUR_PRODUCTION_CONSUMER_KEY_HERE";
 $consumerSecret     = "YOUR_PRODUCTION_CONSUMER_SECRET_HERE";
 $BusinessShortCode  = "YOUR_PRODUCTION_PAYBILL_TILL_HERE"; // e.g., 174379
@@ -52,9 +50,7 @@ function getDB() {
     }
 }
 
-// ======================
 // Handle STK Push Request
-// ======================
 if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['phone'], $_POST['amount'])) {
     header('Content-Type: application/json');
     
@@ -198,9 +194,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['phone'], $_POST['amou
     exit;
 }
 
-// ======================
 // AJAX Polling: Check Transaction Status
-// ======================
 if ($_SERVER['REQUEST_METHOD'] === 'GET' && isset($_GET['check'], $_GET['phone'])) {
     header('Content-Type: application/json');
     
