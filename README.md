@@ -158,21 +158,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 💬 Community Forum
 
 🐛 Issue Tracker
-
-⭐ Star History
-If you find this project useful, please consider giving it a star ⭐ on GitHub!
-
-text
-
-## 📝 **Quick Update Commands**
-
-```bash
-# Navigate to your project
-cd "F:\Clients\Mpesa payment"
-
-# Replace README content (copy the content above)
-notepad README.md
-
 # Save and close, then commit
 git add README.md
 git commit -m "Update README with proper formatting and integration flowchart"
